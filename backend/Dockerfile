@@ -13,7 +13,7 @@ RUN npm install
 # Install MySQL client library
 RUN npm install mysql
 
-# Copy project files
+# Copy pject files
 COPY . .
 
 # Expose port 5000
